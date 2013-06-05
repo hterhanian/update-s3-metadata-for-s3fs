@@ -5,6 +5,8 @@ Wrapper script written in perl that uses s3cmd to update metadata for s3 objects
 
 I wrote this script for s3cmd v1.0.1 on CentOS 6.3
 
+Before running this script, run it with $DRYMODE='TRUE'. Script will print out the s3cmd actions it will use.
+
 I modified s3cmd with the following in order to get headers to update when doing s3cmd cp and also to fix errors I was having when updating files that used japanese characters.
 
 
